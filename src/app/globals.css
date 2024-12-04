@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden !important;
+  @apply bg-gray-100;
+}
+
+body.white {
+  @apply bg-white;
+}
+
+html,
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.surah-info h2 {
+  @apply text-2xl  lg:text-3xl font-bold text-emerald-100 dark:text-emerald-500;
+}
+
+.surah-info p {
+  @apply text-lg md:text-xl text-justify;
+}
+
+.surah-info ol {
+  list-style: square;
+  @apply text-lg md:text-xl text-justify pl-5;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
