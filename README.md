@@ -6,7 +6,7 @@
   </a>
 
   <p align="center">
-    <a href="https://quranapp.acmal.me">Visit QuranApp</a>
+    <a href="https://quran-app-bagus.vercel.app/">Visit QuranApp</a>
   </p>
 </p>
 
